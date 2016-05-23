@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
 Job.create(title: 'Need Java Android Live Wallpaper recreated in C++', company: FFaker::Company.name, posted: Time.at(0.0 + rand * (Time.now.to_f - 0.0.to_f)),
           position: FFaker::Job.title, location: FFaker::Address.country,
           description: "The budget isn't actually $5. I'm just not sure how much this would cost. Please bid what you think the project is worth.Looking for someone with experience with C++ android live wallpapers. The apk for the current LWP is here:",
@@ -19,7 +12,7 @@ Job.create(title:'Automotive Used Car Acquisition Manager ', company: FFaker::Co
           url: FFaker::Internet.http_url, job_type: 'Hourly')
 Job.create(title:'Need help to convert MS Word macro to Mac compatible ', company: FFaker::Company.name , posted:Time.at(0.0 + rand * (Time.now.to_f - 0.0.to_f)),
            position: FFaker::Job.title, location: FFaker::Address.country,
-           description: " am looking for a developer with knowledge of Java/Hibernate and MySQL stored procedures to convert 3 Java/Hibernate queries onto MySQL to stored procedures to help improve the performance of an application. ",
+           description: "am looking for a developer with knowledge of Java/Hibernate and MySQL stored procedures to convert 3 Java/Hibernate queries onto MySQL to stored procedures to help improve the performance of an application. ",
            url: FFaker::Internet.http_url, job_type: '')
 Job.create(title:'Email List Development ', company: FFaker::Company.name , posted:Time.at(0.0 + rand * (Time.now.to_f - 0.0.to_f)),
            position: FFaker::Job.title, location: FFaker::Address.country,
