@@ -1,0 +1,1024 @@
+/* frontpage CSS */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+body {
+  font-family: arial,sans-serif;
+  font-size:10pt;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:#0000CC;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  /* width: 600px; */
+  width: 100%;
+  text-align: left;
+  padding-top: 200px;
+}
+
+.header {
+  width: inherit;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  padding-left: 415px;
+}
+
+#jj-frontpage-logo-holder .logo-mobile {
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+#jj-frontpage-logo-holder .logo-small {
+  height: 60px;
+}
+
+#jj-frontpage-logo-holder .logo-large {
+  height: 92px;
+}
+
+#jj-frontpage-logo-holder .logo-small,
+#jj-frontpage-logo-holder .logo-dj,
+#jj-frontpage-logo-holder .logo-normal {
+  margin-left: 20px;
+}
+
+#jj-frontpage-logo-holder .logo-dj {
+  width: 215px;
+}
+
+#jj-frontpage-search-options {
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+#jj-frontpage-topbar {
+  background-color: #F2F2F2;
+  height: 21px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#jj-frontpage-topbar a {
+  text-decoration: underline;
+  margin-left: 16px;
+}
+
+#jj-frontpage-topbar .jj-frontpage-topbar-link-dark {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+#jj-frontpage-header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#jj-frontpage-logo-holder {
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+#jj-frontpage-searchform table, #jj-frontpage-searchform tr {
+  width: inherit;
+}
+
+#jj-frontpage-searchform .td-spacer {
+  width: 5px;
+}
+
+#jj-frontpage-searchform #edit-keyword,
+#jj-frontpage-searchform #edit-location {
+  width: 296px;
+  height: 22px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#jj-frontpage-searchform .td-submit {
+  /* width: 20%; */
+}
+
+#jj-frontpage-searchform .form-label {
+  font-size: 14pt;
+  font-weight: bold;
+  /* color: #4097EF; orange */
+  color: 	#4097EF;
+  /* color: #666; */
+}
+
+#jj-frontpage-header #jj-frontpage-searchform .form-label {
+  font-size: 16pt;
+}
+
+#jj-frontpage-searchform .form-text {
+  font-size: 12pt;
+}
+
+#jj-frontpage-searchform .form-description {
+  font-size: 10pt;
+  color: #aaaaaa;
+}
+
+#jj-jobsearch-location-suggestion a {
+  color: #7777cc;
+  text-decoration: underline;
+}
+
+#jj-frontpage-search-options a {
+  text-decoration: underline;
+  color: #7777CC;
+}
+
+#jj-frontpage-content {
+  width: 700px;
+  border-bottom: 1px #E0E0E0 solid;
+  padding-bottom: 5px;
+}
+
+#jj-frontpage-content a {
+  color: #7777cc;
+  text-decoration: none;
+}
+
+#jj-frontpage-searchform .form-submit {
+  font-size: 16px;
+  width: 90px;
+  height: 30px;
+  padding-bottom: 2px;
+  line-height: 18px;
+  font-weight: normal;
+  color: black;
+  position: relative;
+  top: -1px;
+}
+
+#jj-frontpage-searchform .shadow-wrap {
+  display: inline-block;
+  line-height: 16px;
+}
+
+#jj-frontpage-searchform .shadow-wrap .form-text {
+  padding: 3px 6px;
+  width: 100%;
+}
+
+#jj-frontpage-searchform .shadow-wrap input {
+  border-color: #CCCCCC #AAAAAA #AAAAAA #CCCCCC;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial,sans-serif;
+  margin: 0;
+}
+
+#jj-frontpage-searchform .td-keyword, #jj-frontpage-searchform .td-location {
+  padding-right: 3px;
+}
+
+#jj-frontpage-searchform-mobile,  #jj-frontpage-searchform-mobile .td-keyword {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #000;
+}
+
+#jj-frontpage-searchform-mobile label {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #FF8300;
+  font-weight: bold;
+}
+
+#jj-frontpage-searchform-mobile .form-text {
+  border:1px solid #AEAEAE;
+  height: 17px;
+  font-family: Sans, Arial, Verdana;
+  font-size: 13px;
+  font-weight: normal;
+  color: #323232;
+  line-height: 17px;
+  width:100%;
+}
+
+#jj-frontpage-searchform-mobile .form-submit {
+  font-family: Sans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  color: #323232;
+  line-height: 17px;
+  height:24px;
+  left:1px;
+  position:relative;
+  top:-2px;
+  width:90px;
+}
+
+#jj-frontpage-footer-stats {
+  color: #ffffff;
+}
+
+.main {
+  /* border: 1px dashed #fa6e17; */
+  /* width: 370px; */
+  width: 100%;
+  text-align: center;
+  /*
+  padding-top: 40px;
+  margin-bottom: 40px;
+  */
+  /* padding: 10px; */
+
+}
+
+.footer {
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top: none;
+}
+
+.footer .copyright {
+  padding-top: 20px;
+  font-size: 12px;
+  color: #888888;
+}
+
+.clock {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.quick-links li {
+  padding-top: 3px;
+  list-style-type: circle;
+}
+
+#jj-frontpage-content .carat {
+  color: #E47911;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  left: -12px;
+  /* position: absolute; */
+}
+
+#jj-frontpage-linksto-block .margin-left {
+  margin-left: 20px;
+}
+
+#jj-frontpage-linksto-block, #jj-frontpage-linksto-block table {
+  font-size: 13px;
+}
+
+#jj-frontpage-linksto-block {
+  /* width: 500px; */
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #6F6F6F;
+  width: 100%;
+  min-width: 500px;
+  text-align: left;
+}
+
+#jj-frontpage-linksto-block ul {
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+#jj-frontpage-linksto-block .more {
+  font-weight: bold;
+}
+
+#jj-frontpage-linksto-block .title {
+  font-weight: bold;
+  color: #6f6f6f;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#jj-frontpage-linksto-table a {
+  color: #888888;
+}
+
+.jj-frontpage-linksto-column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#jj-frontpage-linksto-intro {
+  /* border: 1px solid green; */
+}
+
+#jj-frontpage-linksto-intro a {
+  color: #7777cc;
+  text-decoration: none;
+}
+
+#jj-frontpage-icon-bookmark {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+#jj-frontpage-message {
+  /*
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  */
+  font-family: Arial;
+  width: 160px;
+  color: #888888;
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+#jj-frontpage-recentsearches-title,
+.jj-frontpage-pinhead-title,
+#jj-frontpage-topsearches-title,
+#jj-frontpage-linksto-intro,
+#jj-frontpage-content-message,
+#dj-adpartner-vertical-title {
+  /* background: url(/sites/all/themes/jjnetwork/images/pincushion-12x15-orange.gif) left top no-repeat; */
+  /*
+  background: url(/sites/all/themes/jjnetwork/images/pincushion-10x12-orange.gif) left 3px no-repeat;
+  padding-left: 16px;
+  left: -16px;
+  line-height: 15px;
+  */
+  font-size: 13px;
+  color: #6f6f6f;
+  /* position: relative; */
+}
+
+#jj-frontpage-content-message {
+  /* margin-bottom: 15px; */
+  /* border: 1px solid black; */
+}
+
+#jj-frontpage-content-message #newjobs {
+  text-align:center;
+  padding-right: 30px;
+  font-size:14px;
+}
+
+#jj-frontpage-content-message #newjobs-large {
+  font-size: 18px;
+  color: #5F5F5F;
+}
+
+/* Left columns */
+#jj-frontpage-recentsearches-list {
+  margin-top: 2px;
+  list-style-type: none;
+  padding: 1px 0 10px 12px;
+}
+
+#jj-frontpage-recentsearches-list td {
+  height: 22px;
+  padding-right: 20px;
+}
+
+#jj-frontpage-recentsearches-list a {
+  text-decoration: underline;
+  color: blue;
+}
+
+#jj-frontpage-recentsearches-vertical {
+  font-size:13px;
+  font-family: Arial;
+}
+
+#jj-frontpage-recentsearches-title a {
+  font-weight: bold;
+}
+
+.jj-frontpage-vertical-break {
+  border-bottom:1px solid #D6D6D6;
+  height:1px;
+  margin-bottom:15px;
+  margin-top:5px;
+  width:180px;
+}
+
+#jj-frontpage-topsearches, #jj-frontpage-topemployers {
+
+}
+
+#jj-frontpage-topsearches-title, #jj-frontpage-topemployers-title {
+  font-family:Arial;
+  font-size:13px;
+  color: #000;
+  padding-bottom: 8px;
+}
+
+#jj-frontpage-topsearches-vertical {
+  line-height: 16px;
+}
+
+#jj-frontpage-topsearches-vertical ul {
+  list-style-type:none;
+  margin:0;
+  /* line-height: 20px; */
+}
+
+/*
+#jj-frontpage-topsearches-vertical li, #jj-frontpage-topsearches-vertical a {
+	display: list-item;
+	color: #888888;
+	font-family: Verdana;
+	font-size:11px;
+}
+*/
+
+#jj-frontpage-topsearches-vertical-items, #jj-frontpage-topsearches-vertical-items a {
+  color: #7777cc;
+  font-family: Verdana;
+  font-size:11px;
+  text-decoration: none;
+}
+
+#jj-frontpage-topsearches-horizontal-items, #jj-frontpage-topemployers-horizontal-items {
+  width: 100%;
+  margin-bottom: 40px;
+}
+#jj-frontpage-topsearches-horizontal-items td, #jj-frontpage-topemployers-horizontal-items td {
+  width: 50%;
+}
+#jj-frontpage-topsearches-horizontal-items td a, #jj-frontpage-topemployers-horizontal-items td a {
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*
+#jj-frontpage-topsearches-horizontal-items a {
+	color: #7777cc;
+	font-family: Verdana;
+	font-size:11px;
+	text-decoration: none;
+}
+
+/* Ad Partners */
+
+#jj-frontpage-adlist-vertical {
+  display: block;
+  float: right;
+  width: 220px;
+  /* height: 400px; */
+  /* border: 1px solid red; */
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+  /*
+  right: 0px;
+  margin-right: 10px;
+  padding-bottom: 50px;
+  margin-top: 250px;
+  */
+}
+
+#jj-frontpage-adlist-horizontal {
+  padding-bottom: 30px;
+}
+
+#jj-frontpage-leftbar {
+  /*
+  margin-left: 30px;
+  width: 130px;
+  margin-top: 260px;
+  position: relative;
+  z-index: 10;
+  */
+}
+
+#dj-adpartner-table-vertical {
+  text-align: left;
+  line-height: 14px;
+  /* margin-left: 50px; */
+}
+
+.dj-adpartner-separator-vertical {
+  /* border-bottom: 1px solid #d6d6d6; */
+  height: 1px;
+  margin: 15px;
+}
+
+#dj-adpartner-vertical-title {
+  /* margin-bottom: 10px; */
+}
+
+/*
+.dj-adpartner-vertical-title {
+	color: #7e7e7e;
+	font-size: 13px;
+	padding: 0;
+	position: relative;
+	top: 5px;
+}
+*/
+
+.dj-adpartner-table {
+  width: 210px;
+}
+
+.dj-adpartner-table a, .dj-adpartner-table a:visited {
+  color:#333;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.dj-adpartner-title {
+  color: blue;
+  font-family: Arial;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+.dj-adpartner-logo {
+  padding: 0 30px;
+}
+
+.dj-adpartner-desc {
+  color: #888888;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.jj-page-footer-link {
+  font-family: arial, verdana;
+  font-size: 13px;
+}
+
+#dj-adpartner-vertical-contact-link {
+  text-align: right;
+  font-size: 10px;
+}
+
+#jj-mobile-switcher {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 0;
+  font-size: 13px;
+  text-align: right;
+  color: #333;
+}
+
+#jj-mobile-switcher a {
+  color: blue;
+  text-decoration: underline;
+}
+
+#jj-frontpage-top-message {
+  color: #7F7F7F;
+  /* font-family: Georgia,Verdana,Arial; */
+  font-size: 12px;
+  font-style: italic;
+  /* font-weight: bold; */
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+
+#dj-frontpage-streetsmart {
+  /* border: 1px solid blue; */
+  margin-top: 50px;
+}
+
+#dj-frontpage-streetsmart .quote-holder {
+  text-align: center;
+  /* width: 400px; */
+  margin-top: 15px;
+}
+
+#dj-frontpage-streetsmart blockquote p {
+  padding: 0px 25px 0px 0px;
+  font-size: 15px;
+  background: url(/files/orange-quote-down.png) bottom right no-repeat;
+  /*font-family: "Lucida Grande","Lucida Sans",Tahoma,Verdana,sans-serif; */
+  font-family: Tahoma;
+  text-align: left;
+}
+
+#dj-frontpage-streetsmart blockquote {
+  padding: 20px 20px 20px 33px;
+  background: url(/files/orange-quote-up.png) top left no-repeat;
+}
+
+#dj-frontpage-streetsmart cite {
+  font-size: 1.2em;
+  /* float: right; */
+  font-family: Tahoma,Verdana,sans-serif;
+  font-size: 15px;
+  /* font-style: italic; */
+  float: right;
+}
+
+#dj-frontpage-streetsmart cite a {
+  color: blue;
+}
+
+#jj-frontpage-blocklink-holder {
+  /* border: 1px solid blue; */
+}
+
+#jj-frontpage-categories table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+#jj-frontpage-categories table td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.jj-frontpage-content-minheight {
+  min-height: 500px;
+}
+
+#jj-frontpage-content-separator {
+  margin-top: 5px;
+  width: 100%;
+}
+
+#jj-frontpage-content-separator td {
+  vertical-align: top;
+}
+
+#jj-frontpage-searchform .label-aligner {
+  vertical-align: top;
+  padding-bottom: 5px;
+}
+
+.st {
+  font-weight: bold;
+}
+
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+
+/* new header */
+
+#top-header table thead th,
+#top-header table tbody td {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#dj-jobpost-jobsearch-form-top {
+  padding: 0;
+  margin: 0;
+}
+
+#dj-jobpost-jobsearch-form-top td {
+  text-align: left;
+}
+
+#dj-jobpost-jobsearch-form-top label {
+  margin-bottom: 0px;
+}
+
+#dj-jobpost-jobsearch-form-top input {
+  padding: 1px;
+  margin: 0;
+}
+
+#dj-jobpost-jobsearch-form-top .form-item label {
+  color: #f28320;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+#dj-jobpost-jobsearch-form-top #edit-btnsubmit3 {
+  width: 85px;
+  height: 30px;
+  border: 1px solid #ff9900;
+  background-color: #ff8000;
+  color: white;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 17px;
+  background-image: none;
+}
+
+#pointer {
+  left: 690px;
+  position: relative;
+  top: -15px;
+}
+
+#social-icons-holder {
+  display: inline;
+  position:relative;
+  margin-left: 10px;
+  top: -15px;
+}
+
+#social-icons-holder a {
+  padding-right: 5px;
+}
+
+#searchbar-holder {
+  margin-left: auto;
+  margin-right: auto;
+  width: 780px;
+}
+
+#right-menu-holder {
+  position: absolute;
+  /* width: 315px; */
+  height: 58px;
+  top: 4px;
+  right: -14px;
+}
+
+#right-menu-holder .ads-searchguide,
+#right-menu-holder .ads-worksmart,
+#right-menu-holder .ads-postjobs {
+  text-align: left;
+}
+
+#right-menu-holder .ads-searchguide a,
+#right-menu-holder .ads-worksmart a,
+#right-menu-holder .ads-postjobs a {
+  font-family: Tahoma;
+  color: #999;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#logo-holder {
+  left: -320px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 210px;
+}
+
+#logo-holder-jj {
+  left: -320px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 5px;
+  width: 210px;
+}
+
+/*
+#logo-holder {
+    left: -324px;
+    position: relative;
+    top: 7px;
+}
+*/
+
+#pin {
+  position: relative;
+  top: 20px;
+}
+
+#ads-logo {
+
+}
+
+
+#dj-jobpost-search-options {
+  font-size: 10px;
+  padding-left: 8px;
+  width: 120px;
+}
+
+#dj-jobpost-jobsearch-form-top {
+  /*
+  font-size: 14px;
+  padding-left:160px;
+  padding-top: 5px;
+  */
+}
+
+#dj-jobpost-jobsearch-form,
+#dj-jobpost-jobsearch-form-bottom {
+  font-size: 14px;
+  background-color: #F2F2F2;
+}
+
+#dj-jobpost-jobsearch-form {
+  margin-bottom: 0px;
+  background-color: #FCFCFC;
+}
+
+#dj-jobpost-jobsearch-form-bottom {
+  padding-left: 160px;
+}
+
+#dj-page-search-format-switch {
+  font-size: 12px;
+}
+
+#dj-jobpost-jobsearch-form label,
+#dj-jobpost-jobsearch-form-top label,
+#dj-jobpost-jobsearch-form-bottom label {
+  /* FOO */
+  /* color: #E36B1D; */
+  /* color: #A85118; djc brown*/
+  color: #E36B1D;
+}
+
+#dj-jobpost-jobsearch-form #edit-keyword, #dj-jobpost-jobsearch-form #edit-location,
+#dj-jobpost-jobsearch-form-top #edit-keyword, #dj-jobpost-jobsearch-form-top #edit-location,
+#dj-jobpost-jobsearch-form-bottom #edit-keyword, #dj-jobpost-jobsearch-form-bottom #edit-location {
+  /* FOO */
+  /* color: #E36B1D; */
+  /* color: #A85118; djc brown*/
+  /* width: 264px; */
+  width: 17em;
+}
+
+
+
+#dj-jobpost-jobsearch-form input,
+#dj-jobpost-jobsearch-form-top input,
+#dj-jobpost-jobsearch-form-bottom input {
+  width: 100%;
+}
+
+#dj-jobpost-jobsearch-form #edit-keyword-match-field, #dj-jobpost-jobsearch-form #edit-keyword-match-method,
+#dj-jobpost-jobsearch-form-top #edit-keyword-match-field, #dj-jobpost-jobsearch-form-top #edit-keyword-match-method,
+#dj-jobpost-jobsearch-form-bottom #edit-keyword-match-field, #dj-jobpost-jobsearch-form-bottom #edit-keyword-match-method {
+  width: 90%;
+}
+
+#dj-jobpost-jobsearch-form #edit-location-range,
+#dj-jobpost-jobsearch-form-top #edit-location-range,
+#dj-jobpost-jobsearch-form-bottom #edit-location-range {
+  width: 45%;
+}
+
+#dj-jobpost-jobsearch-form #table-holder,
+#dj-jobpost-jobsearch-form-top #table-holder,
+#dj-jobpost-jobsearch-form-bottom #table-holder {
+  width: 500px;
+  border-spacing: 0px;
+  margin: 0px;
+  background-color: transparent;
+
+
+  /* border: 3px solid #ccc; */
+}
+
+#dj-jobpost-jobsearch-form #table-holder td,
+#dj-jobpost-jobsearch-form-top #table-holder td,
+#dj-jobpost-jobsearch-form-bottom #table-holder td {
+  border-spacing: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#dj-jobpost-jobsearch-form #table-holder td .form-select,
+#dj-jobpost-jobsearch-form-top #table-holder td .form-select,
+#dj-jobpost-jobsearch-form-bottom #table-holder td .form-select {
+  width: 100%;
+}
+
+#dj-jobpost-jobsearch-form #table-holder .row_submit .main,
+#dj-jobpost-jobsearch-form-top #table-holder .row_submit .main,
+#dj-jobpost-jobsearch-form-bottom #table-holder .row_submit .main {
+  background-color: #ffffff;
+  padding-left: 30px;
+}
+
+#dj-jobpost-jobsearch-form em,
+#dj-jobpost-jobsearch-form-top em,
+#dj-jobpost-jobsearch-form-bottom em {
+  /* text-decoration: underline; */
+  color: #1675E7;
+}
+
+#dj-jobpost-jobsearch-form #table-holder .form-item,
+#dj-jobpost-jobsearch-form-top #table-holder .form-item,
+#dj-jobpost-jobsearch-form-bottom #table-holder .form-item {
+  padding: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+
+#dj-jobpost-jobsearch-form #table-holder .row2 .form-item,
+#dj-jobpost-jobsearch-form-top #table-holder .row2 .form-item,
+#dj-jobpost-jobsearch-form-bottom #table-holder .row2 .form-item
+{
+  padding: 0px;
+  margin: 0px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+#dj-jobpost-jobsearch-form #edit-keyword,
+#dj-jobpost-jobsearch-form-top #edit-keyword,
+#dj-jobpost-jobsearch-form-bottom #edit-keyword {
+
+  border: 1px solid #C2C2C3;
+  border-radius: 3px;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #555555;
+
+}
+
+#dj-jobpost-jobsearch-form #edit-location,
+#dj-jobpost-jobsearch-form-top #edit-location,
+#dj-jobpost-jobsearch-form-bottom #edit-location {
+
+  border: 1px solid #C2C2C3;
+  border-radius: 3px;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#dj-jobpost-jobsearch-form .description, #dj-jobpost-jobsearch-form-top .description, #dj-jobpost-jobsearch-form-bottom .description {
+  color: #B6B6B8;
+  padding-top: 5px;
+}
+.form-item .description {
+  font-size: 12px;
+}
+
+#right-menu-holder .menu-item {
+  width: 110px;
+  text-align: left;
+  color: #999999;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#right-menu-holder .menu-item a {
+  color: #999999;
+}
+
+#dj-topbar {
+  height: 21px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 0px;
+}
+
+#dj-topbar a {
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+#dj-topbar .dj-topbar-link-dark {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}

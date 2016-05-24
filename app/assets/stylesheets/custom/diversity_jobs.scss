@@ -1,0 +1,1088 @@
+#diversityjobs-main {
+  padding-top: 10px;
+}
+
+.diversityjobs-bidsystem-announcebox {
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.diversityjobs-bidsystem-advertisement-filter-box {
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.diversityjobs-title-box {
+  border: 1px solid #cccccc;
+  /* background-color: #BEC9D5; */
+  background-color: #eeeeee;
+  height: 70px;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.diversityjobs-title-box-icon {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+
+.diversityjobs-title-box-text {
+  text-align: left;
+  color: #777777;
+}
+
+.diversityjobs-icon {
+  border: none;
+  width: 32px;
+  height: 32px;
+
+}
+
+.diversityjobs-icon-placeholder {
+  text-align: center;
+  height: 80px;
+  width: 20%;
+
+}
+
+#diversityjobs-notify-error {
+  float:right;
+  color: white;
+  /* width: 200px; */
+  padding:5px;
+  margin: 3px;
+  background-color: #D4001A;
+  border: 1px solid #FF001E;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  font: 10px Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+  display: none;
+}
+
+#diversityjobs-notify-success {
+  float:right;
+  color: white;
+  /* width: 200px; */
+  padding:5px;
+  margin: 3px;
+  background-color: #287436;
+  border: 1px solid #34A54A;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  font: 10px Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+  display: none;
+}
+
+.diversityjobs-button-apply-now {
+  width: 246px;
+  height: 64px;
+  border: none;
+  background: url(/sites/all/modules/diversityjobs/icons/button_applynow.gif) center center no-repeat;
+}
+
+/* text highlights */
+.hl0	{ background-color: #f1f065} /* YELLOW */
+.hl1	{ background-color: #c9ef8a } /* GREEN */
+.hl2	{ background-color: #9ac9ff} /* BLUE */
+.hl3	{ background-color: #dfb0e8 } /* PURPLE */
+.hl4	{ background-color: #FEcc82 } /* ORANGE */
+.hl5	{ background-color: #ff9692} /* RED */
+.hl6	{ background-color: #bca573 } /* dark-yellow */
+.hl7	{ background-color: #aec685 } /* dark-green */
+.hl8	{ background-color: #98a2d0 } /* grey-blue */
+.hl9	{ background-color: #bfb4d1 } /* grey-purple */
+
+.texthighlight { /*background-color: #1675E7; color: white*/ font-weight: bold;}
+
+/* Job Search */
+
+#dj_jobpost_jobsearch_main {
+  padding-top: 0px;
+}
+
+#dj_jobpost_jobsearch_main a, #dj_jobpost_jobsearch_main a:active, /* #dj_jobpost_jobsearch_main a:visited, */ #dj_jobpost_jobsearch_main a:hover {
+  color: #C50022;
+  text-decoration: none;
+}
+
+#dj_jobpost_jobsearch_main a:visited {
+  color: #5F335A;
+}
+
+#dj_jobpost_jobsearch_main .list_logo {
+  width: 96px;
+  height: 96px;
+}
+
+#dj_jobpost_jobsearch_main .list_description {
+  padding: 12px;
+  /* width: 300px; */
+}
+
+#dj_jobpost_jobsearch_main .list_company {
+  /* padding: 12px; */
+  width: 130px;
+}
+
+#dj_jobpost_jobsearch_main .list_location {
+  padding-left: 12px;
+  width: 100px;
+}
+
+/*
+#dj_jobpost_jobsearch_main table tr.even {
+	background-color: #cccccc;
+}
+
+#dj_jobpost_jobsearch_main table tr.odd {
+	background-color: #dddddd;
+}
+*/
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-navbar-cell a,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-navbar-cell a:active,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-navbar-cell a:hover
+{
+  color: blue;
+  text-decoration: underline;
+  /* padding-left: 6px; */
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-navbar-cell a:visited {
+  color: #5F335A;
+}
+
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-box {
+  border: 1px solid #dddddd;
+  background-color: #F8F8F8;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox {
+  border: 1px solid #dddddd;
+  background-color: #DDDADA;
+  height: 18px;
+
+  /*
+  height: 26px;
+  padding-top: 6px;
+  */
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox .holder {
+  position: relative;
+  top: 2px;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox .title {
+  font-style: italic;
+  padding-left: 32px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox a,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox a:active,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox a:hover {
+
+  color: blue;
+  text-decoration: underline;
+
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-headerbox a:visited {
+  color: #5F335A;
+}
+
+#dj_jobpost_jobsearch_main #jobpost_search_tips {
+  font-family: Verdana;
+  font-weight: none;
+  font-size: 12px;
+  /* border: 1px solid #dddddd; */
+  background-color: #F8F8F8;
+}
+
+#dj_jobpost_jobsearch_main .form-item {
+  margin: 0px;
+}
+
+.box_search_tips_off {
+  display: none;
+}
+
+.box_search_tips_on {
+  margin-top: 5px;
+  padding: 10px;
+  display: block;
+  border: 1px solid #dddddd;
+
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-box a,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-box a:active,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-box a:hover
+{
+  color: blue;
+  text-decoration: underline;
+  padding-left: 6px;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-box a:visited {
+  color: #5F335A;
+}
+
+#diversityjobs-jobsearch-partners {
+  margin-top: 10px;
+}
+
+#diversityjobs-jobsearch-partners fieldset {
+  padding: 0;
+  margin: 0;
+  /* padding: 10px; */
+  /* background-color: #fef7e5; */
+  border: 0;
+}
+
+#diversityjobs-jobsearch-partners legend {
+  /* font-weight: bold; */
+  margin-top: 10px;
+  color: #6C5436;
+}
+
+#diversityjobs-jobsearch-partners .sponsor-logo {
+  padding-right: 30px;
+}
+
+.title_options_highlight {
+  /*color: #A85118;*/
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
+#content .diversityjobs-jobsearch-blockbox {
+  border: 1px solid #dddddd;
+  background-color: #F8F8F8;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+#content .diversityjobs-jobsearch-blockbox .blocktitle {
+  color: #CC6600;
+  font-size: 14px;
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+#content .diversityjobs-jobsearch-blockbox table {
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-blockbox a,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-blockbox a:active,
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-blockbox a:hover
+{
+  color: blue;
+  text-decoration: underline;
+  padding-left: 6px;
+}
+
+#dj_jobpost_jobsearch_main .diversityjobs-jobsearch-blockbox a:visited {
+  color: #5F335A;
+}
+
+#subcontent-left .block .popular-block,
+#subcontent-right .block .popular-block
+{
+  position: relative;
+  top: -8px;
+}
+
+#subcontent-left .block .popular-block a,
+#subcontent-left .block .popular-block a:active,
+#subcontent-left .block .popular-block a:hover,
+#subcontent-right .block .popular-block a,
+#subcontent-right .block .popular-block a:active,
+#subcontent-right .block .popular-block a:hover
+{
+  color: blue;
+  text-decoration: underline;
+  padding-left: 6px;
+}
+
+#subcontent-left .block .popular-block a:visited,
+#subcontent-right .block .popular-block a:visited
+{
+  color: #5F335A;
+}
+
+#subcontent-left .block .popular-block ol,
+#subcontent-right .block .popular-block ol
+{
+  margin: 0px;
+  padding-left: 22px;
+}
+
+#dj_bidsystem_campaigns_filter {
+  background-color: transparent;
+  padding: 0px;
+}
+
+#dj-bidsystem-campaigns-filter-form .form-item {
+  /* height: 10px; */
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.joblist-title-holder {
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.joblist-item-spacer {
+  height: 10px;
+}
+
+.joblist-item-spacer-mobile {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.joblist-tools-toggler {
+  font-family: arial;
+  font-size: 13px;
+}
+
+.joblist-email-toggler {
+  font-family: arial;
+  font-size: 13px;
+}
+
+.joblist-tools-toggler-arrow {
+  font-size: 10px;
+  color: #7777CC;
+}
+
+.joblist-tools-block {
+  display: none;
+  border: 1px solid #cccccc;
+  background-color: #ebebeb;
+  margin-top: 10px;
+  position: relative;
+  width: 600px;
+}
+
+.joblist-tools-closer {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  border: 1px solid #cccccc;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.joblist-tools-more-box {
+  padding-top: 12px;
+}
+
+.joblist-tools-share-box {
+  position: absolute;
+  right: 25px;
+  top: 3px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.joblist-tools-share-item {
+  float: left;
+}
+
+.joblist-tools-email-box {
+  font-family: Arial;
+  font-size: 15px;
+  padding: 0 10px 10px 10px;
+}
+
+.joblist-tools-email-box h3 {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.joblist-tools-email-box input {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.joblist-tools-email-box input[type=text] {
+  width: 316px;
+  height: 20px;
+  border: 1px solid #7f9db9;
+}
+
+.joblist-tools-email-box textarea {
+  width: 343px;
+  height: 71px;
+  border: 1px solid #7f9db9;
+}
+
+.joblist-tools-email-error {
+  color: red;
+  padding-left: 16px;
+}
+
+#jobsearch-display .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+#jobsearch-display .joblist-tools-toggler {
+  padding-left: 10px;
+}
+
+#jobsearch-display .tinfo {
+  width: 500px;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+  margin-top: 5px;
+}
+
+#jobsearch-display .desc {
+  font-style: italic;
+  padding-right: 10px;
+}
+
+#diversityjobs-application-holder {
+  color: #e36c09;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+#diversityjobs-application-holder a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+#diversityjobs-application-info {
+  font-family: Verdana,Arial;
+  font-size: 12px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#diversityjobs-application-info .arrow {
+  color: #E36C09;
+  font-size: 20px;
+  font-weight: bold;
+  left: -23px;
+  position: absolute;
+}
+
+
+/* email-this-search block */
+
+#jobpost-mail-this-search {
+  border-top: 2px solid #cccccc;
+  background-color: #ebebeb;
+  padding-left: 7px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #000000;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+#jobpost-mail-this-search .holder-from,
+#jobpost-mail-this-search .holder-to,
+#jobpost-mail-this-search .holder-message {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#jobpost-mail-this-search .holder-send {
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+#jobpost-mail-this-search .jmts-message, #jobpost-mail-this-search .jmts-from, #jobpost-mail-this-search .jmts-to {
+  border: 1px solid #7f9db9;
+  width: 195px;
+}
+
+#jobpost-mail-this-search .holder-message, #jobpost-mail-this-search .jmts-message-switcher {
+  color: #7777cc;
+}
+
+#jobpost-mail-this-search .jmts-message-switcher {
+  text-decoration: underline;
+}
+
+#jobpost-mail-this-search .jmts-msg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#jobpost-side-search-guide {
+  padding-top: 40px;
+  margin: 0 0 0 15px;
+  font-family: Arial, Verdana,sans-serif;
+  font-size: 12px;
+  color: #333;
+  width: 210px;
+  line-height: 16px;
+}
+
+#jobpost-side-search-guide img {
+  width: 52px;
+  height: 52px;
+  margin-right: 16px;
+}
+
+#jobpost-side-search-guide img.unhappy{
+  width: 62px;
+  height: 62px;
+}
+
+#jobpost-side-search-guide table {
+  margin-bottom: 25px;
+}
+
+#jobpost-side-search-guide .left {
+  width: 45px;
+}
+
+/* Buttons from http://stopdesign.com/eg/buttons/3.0/code.html# */
+
+.btn {
+  display:inline-block;
+  background:none;
+  margin:0;
+  padding:3px 0;
+  border-width:0;
+  overflow:visible;
+  font:100%/1.2 Arial,Sans-serif;
+  text-decoration:none;
+  color:#333;
+}
+
+* html button.btn {
+  padding-bottom:1px;
+}
+/* Immediately below is a temporary hack to serve the
+   following margin values only to Gecko browsers
+   Gecko browsers add an extra 3px of left/right
+   padding to button elements which can't be overriden.
+   Thus, we use -3px of left/right margin to overcome this. */
+
+html:not([lang*=""]) button.btn {
+  margin:0 -3px;
+}
+
+.btn span {
+  background:#ddd url(/files/bg-button.gif) repeat-x 0 0;
+  margin:0;
+  padding:3px 0;
+  border-left:1px solid #bbb;
+  border-right:1px solid #aaa;
+}
+
+* html .btn span {
+  padding-top:0;
+}
+
+.btn span span {
+  position:relative;
+  padding:3px .4em;
+  border-width:0;
+  border-top:1px solid #bbb;
+  border-bottom:1px solid #aaa;
+  white-space: nowrap;
+}
+
+/* pill classes only needed if using pill style buttons ( LEFT | CENTER | RIGHT ) */
+button.pill-l span {
+  border-right-width:0;
+}
+
+button.pill-l span span {
+  border-right:1px solid #bbb;
+}
+
+button.pill-c span {
+  border-right-style:none;
+  border-left-color:#fff;
+}
+
+button.pill-c span span {
+  border-right:1px solid #bbb;
+}
+
+button.pill-r span {
+  border-left-color:#fff;
+}
+
+/* only needed if implementing separate hover/focus/active state for buttons */
+.btn:hover span, .btn:hover span span, .btn:focus span, .btn:focus span span {
+  cursor:pointer; /* important for any clickable/pressable element */
+  border-color:#9cf !important;
+  color:#000;
+}
+
+.btn:active span {
+  background-position:0 -400px;
+  outline:none;
+}
+
+.btn:focus, .btn:active {
+  outline:none; /* doesn't seem to be respected for <button>, only <a> */
+}
+
+/* use if one button should be the 'primary' button */
+.primary {
+  font-weight:bold;
+  color:#000;
+}
+
+/* login page */
+
+#jj-login-holder {
+  padding-left: 30px;
+}
+
+#jj-login-fb-holder {
+  padding-left: 10px;
+}
+
+#jj-login-holder h1, #jj-login-fb-holder h1 {
+  color: #2A2A2A;
+  font-family: Arial;
+  font-size: 22px;
+  margin: 0;
+  font-weight: normal;
+}
+
+#jj-login-holder h1 {
+  font-weight: bold;
+}
+
+#jj-login-holder .jj-login-forgotpassword a, #jj-login-holder .jj-login-forgotpassword a:visited {
+  color: blue;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+#jj-login-holder #diversityjobs-user-login2, #jj-login-holder #user-login {
+  background-color: #FFFFE1;
+  margin-top:20px;
+  padding:20px;
+  width:310px;
+}
+
+#jj-login-holder .description {
+  font-size: 11px;
+  color: #666;
+}
+
+#jj-login-holder .form-text {
+  border: 1px solid #DDD;
+}
+
+#jj-login-holder label {
+  color: #000;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#jj-login-holder #diversityjobs-user-login2 .form-text, #jj-login-holder #user-login .form-text {
+  width: 300px;
+}
+
+#jj-login-holder .form-required {
+  display: none;
+}
+
+#jj-login-holder .form-item {
+  margin-bottom: 10px;
+}
+
+#jj-login-holder #diversityjobs-user-login2 .form-item {
+  margin-top: 0px;
+}
+
+#jj-login-fb-holder {
+  font-family: Arial;
+  font-size: 13px;
+  left: 25px;
+  position: relative;
+  top: 60px;
+}
+
+form .form-submit, form .button,
+.form-submit,
+.form-button {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: url("/files/bg-button.gif") repeat-x scroll 0 0 #DDDDDD;
+  border-right: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  border-left: 1px solid #BBB;
+  border-top: 1px solid #BBB;
+
+  color: #333333;
+  font: bold 12px Arial,Sans-serif;
+  height: 23px;
+}
+
+form .form-submit:hover,
+.form-submit:hover,
+.form-button:hover {
+  border: 1px solid #FF8300;
+}
+
+#content .domain-pages {
+  margin-left: 36px;
+}
+
+#content .domain-pages,
+#content .domain-pages table {
+  font-size: 12px;
+}
+
+#content .domain-pages .big {
+  font-family: Arial, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#content .domain-pages .gray,
+#content .domain-pages .gray a {
+  color: #a3a3a3;
+}
+
+#content .domain-pages .blue {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+#content .domain-pages .underline {
+  text-decoration: underline;
+}
+
+#content .domain-pages a {
+
+}
+
+#draw-icons-menuchilds li {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+#message-container {
+  border: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
+  min-width: 760px;
+  width: 80%;
+}
+
+#message-container td.sp {
+  height: 5px;
+}
+
+#message-container td.left {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+  width: 40px;
+}
+
+#message-container td.right {
+  font-size: 13.7667px;
+  line-height: 20.65px;
+  text-align: left;
+  padding: 5px 5px 5px 15px;
+  border: none;
+}
+
+#message-container td.error {
+  background-color: #FECED1;
+}
+
+#message-container td.status {
+  background-color: #99FF00;
+}
+
+#message-container td.informational {
+  background-color: #EDEDED;
+}
+
+#message-container ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.xhr-new-job-count {
+  color: #ff6600;
+  font-size: 12px;
+}
+
+#title-newjobs-section {
+  font-family: Arial, Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000;
+}
+
+#title-newjobs-section a {
+  color: blue;
+}
+
+.paging-title-content {
+  padding-bottom: 3px;
+  white-space: nowrap;
+  line-height: 14px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #606060;
+  text-align: right;
+}
+#jj-frontpage-recentsearches {
+  padding-left: 230px;
+  padding-bottom: 10px;
+}
+
+#jj-frontpage-linksto-block a {
+  color: blue;
+}
+
+a.links-blue {
+  color: blue;
+}
+
+a.links-gray {
+  color: #333;
+}
+
+#alertform {
+  padding: 5px 7px 4px 10px;
+  margin-bottom: 0;
+}
+
+#jobalerts {
+  width: auto;
+  margin-right:30px;
+}
+
+#alertbox h3 {
+  padding: 1px 0 0 10px;
+  background-color: #F5F5F5;
+  border-left: 1px #EEE solid;
+  border-right: 1px #EEE solid;
+  border-top: 1px #EEE solid;
+  margin: 0;
+}
+
+#jobalerts .holder-send {
+  background-color: #F5F5F5;
+  border-left: 1px #EEE solid;
+  border-right: 1px #EEE solid;
+  border-bottom: 1px #EEE solid;
+}
+
+#alertbox {
+  width: 100%;
+  margin-bottom:10px;
+}
+
+#alertbox .message {
+  background-color: #F5F5F5;
+}
+
+#alertbox .message, #alertbox .content {
+  margin: 1px 0 2px 3px;
+}
+
+#alertbox .message, #alertbox .pad {
+  padding: 7px;
+}
+
+#alertbox .message p {
+  margin-bottom: 5px;
+}
+
+#alertbox #accordion .title {
+  font-family: Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#alertbox .caption {
+  font-size: 11px;
+  color: #555;
+  margin: 0 0 2px 10px;
+}
+
+#alertbox .tip {
+  font-size: 12px;
+  color: #666;
+  margin: 1px 0 2px 5px;
+}
+
+#alertbox .mail-verification {
+  color: #D00;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#alertbox .ico {
+  position: relative;
+  top: 3px;
+  margin: 0 8px 0 2px;
+}
+
+.ui-accordion-content-active {
+}
+
+.ui-icon-triangle-blue-right {
+  background-image: url(/files/blue-arrow-right.png) !important;
+  margin: 0;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+}
+
+.ui-icon-triangle-blue-bottom {
+  background-image: url(/files/blue-arrow-bottom.png) !important;
+  margin: 0;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+}
+
+
+#jobalerts-my-list {
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.my-title {
+  font-family: Arial, Verdana;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#job-alerts-manage-form .form-item {
+  margin-top: 0;
+}
+
+#jobalerts-container {
+  padding: 0 0 30px 30px;
+}
+
+.search-form-container {
+  padding:0 15px 10px 15px;
+}
+
+.aux-container {
+  padding:15px 0;
+}
+
+.search-form .left {
+  width: 200px;
+  font-size: 14px;
+}
+
+.search-form-link {
+  position: relative;
+  top: -5px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+div.modal-header {
+  background-color: #D3D1D2;
+  border-radius: 6px;
+}
+
+h3.modal-header {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 0;
+  padding: 0;
+}
+
+.modal-table-firstcol {
+  padding-left: 80px;
+  width: 50;
+}
+
+.modal-go-button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFF;
+  background-color: #F27A26;
+  padding: 12px 50px;
+  margin: 15px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rounded-corners {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+div.modal-footer {
+  background: none;
+  border: none;
+  text-align: center;
+  padding-top: 0;
+}
+
+.defaultInputTextActive {
+  color:#a1a1a1;
+  font-style: italic;
+}
+
+.errHelper {
+  color:#F27A26;
+  font-size: 11px;
+  font-style: italic;
+  padding-left: 5px;
+}

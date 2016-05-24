@@ -1,0 +1,74 @@
+.jj-domain-base-color-1 {
+  color: #FF8300;
+}
+
+.jj-domain-base-color-2 {
+  color: #FF8300;
+}
+
+.btn:hover span, .btn:hover span span, .btn:focus span, .btn:focus span span {
+  border-color: #FF8300 !important;
+}
+
+form .form-submit:hover,
+.form-submit:hover,
+.form-button:hover {
+  border: 1px solid #FF8300;
+}
+
+/* A */
+#jj-frontpage-searchform .form-label {
+  color: #FF8300;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+/* B, C, D */
+#jj-frontpage-linksto-block a:link {
+  /* color: #0000CC; */
+}
+
+/* E */
+.jj-frontpage-footer, .jj-solid-line-border {
+  border-top:1px solid #F58320;
+}
+
+/* F, G, H */
+.jj-page-primary-menubar-link {
+  background-image:url(http://d.static.justjobs.com/sites/all/themes/jjnetwork/images/red_bullet.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+  color:white;
+  font-weight:bold;
+  padding-left:12px;
+  padding-right:10px;
+  text-decoration:none;
+}
+
+/* I */
+.jj-page-primary-menubar {
+  background-color: #F2F2F2;
+}
+
+/* J */
+.subcontent .block h2 {
+  color:#000000;
+  height:27px;
+  padding-top:4px;
+  text-align:left;
+}
+
+/* K, L, M */
+.subcontent a:hover, .subcontent a:active {
+  text-decoration:underline;
+}
+
+/* N */
+.jj-page-title {
+  color: #666666;
+}
+
+/* O */
+#jj-jobsearch-form-holder label {
+  color: #F83000;
+}
