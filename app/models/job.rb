@@ -7,4 +7,9 @@ class Job < ActiveRecord::Base
                    using: {
                        tsearch: { normalization: 2 }
                    }
+  pg_search_scope :search_by_any_word,
+                  against: [ :title, :company, :description, :location],
+                  using: {
+                      tsearch: {any_word: true}
+                  }
 end
