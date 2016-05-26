@@ -1,4 +1,41 @@
-<%= form_tag(jobs_path, url: search_path, method: :get, id: "search-form") do %>
-    <%= text_field_tag :search, params[:search], placeholder: "Search jobs" %>
-    <%= submit_tag "Search" %>
-<% end %>
+<table width="100%">
+  <tbody>
+  <tr>
+    <td style="height: 110px; background-color: #eff0f3">
+      <div id="searchbar-holder" align="left">
+          <%= form_tag(jobs_path, url: search_path, method: :get, id: "dj-jobpost-jobsearch-form-top") do %>
+          <table id="table-holder">
+            <tbody>
+            <tr class="row1">
+              <td class="main">
+                <div class="form-item">
+                  <label for="edit-keyword">what</label>
+                  <%= text_field_tag :search, params[:search], id:"edit-keyword", class:"form-text", placeholder: "all" %>
+                  <!--<input maxlength="128" name="keyword" id="edit-keyword" size="60" value="all" class="form-text" type="text">-->
+                  <div class="description"><span id="tooltip_keyword" class="toolTip" title="Try a keyword that best describes the ideal position that you are looking for.">job title, keywords or company</span></div>
+                </div>
+              </td>
+              <td class="main">
+                <div class="form-item">
+                  <label for="edit-location">where</label>
+                  <input autocomplete="off" maxlength="128" name="location" id="edit-location" value="usa" class="form-text ui-autocomplete-input" type="text">
+                  <div class="description"><span id="tooltip_location" class="toolTip" title="You might consider refining your search by narrowing it to a specific location.">city, state or zip</span></div>
+                </div>
+              </td>
+              <td class="main" valign="center">
+                <div style="padding-top: 24px; padding-left: 10px">
+                  <!--<input id="edit-btnsubmit3" class="form-submit" value="find jobs" name="op" type="submit">-->
+                  <%= submit_tag "find jobs", id:"edit-btnsubmit3", class: "form-submit" %>
+                  <div id="dj-jobpost-search-options"><a href="/jj/advanced" style="position: relative; left: -20px; top: 5px; color: #9c89d5; text-decoration: underline;">advanced job search</a></div>
+                </div>
+              </td>
+            </tr>
+            <input name="form_id" value="jj_frontpage_searchform" type="hidden">
+            </tbody>
+          </table>
+          <% end %>
+      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>
