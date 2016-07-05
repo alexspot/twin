@@ -1,5 +1,111 @@
-<% if @jobs.present? %>
-    <%=  @jobs %>
-<% else %>
-    <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
-<% end %>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <!-- left sidebar -->
+    <td valign="top" width="200">
+      <div class="subcontent">
+        <div class="block block-jobsearch" id="block-jobsearch-1">
+          <h2>Refine Your Search<span id="facet-clear-link"><a href="http://qajobs.com/s/find-qa-ruby-jobs-in-usa">(clear)</a></span></h2>
+          <div class="content"><div class="facet-header"><h2 class="facet-title"><span style="color:#333">Title</span></h2></div><div class="facet-body"><ul class="facet-group"></ul></div><div class="facet-header"><h2 class="facet-title"><span style="color:#333">Company</span></h2></div><div class="facet-body"><ul class="facet-group"></ul></div></div>
+        </div>
+        <div class="block block-jj_jobpost" id="block-jj_jobpost-11">
+          <h2>Recent Searches</h2>
+          <div class="content"><ul id="recentsearches-list"><li id="recentsearches-item-1464273172"><a href="http://qajobs.com/s/find-all-jobs-in-burl-chittenden-vermont/age:lastvisit?gacid=z5408">all ‐ Burl, VT</a></li><li id="recentsearches-item-1464257826"><a href="http://qajobs.com/s/find-qa-ruby-jobs-in-burl-chittenden-vermont/age:lastvisit?gacid=z5408">qa ruby ‐ Burl, VT</a></li><li id="recentsearches-item-1464257803"><a href="http://qajobs.com/s/find-developer-jobs-in-burl-chittenden-vermont/age:lastvisit?gacid=z5408">developer ‐ Burl, VT</a></li><li id="recentsearches-item-1464121560"><a href="/s/find-manual-tester-jobs-in-usa/age:lastvisit">manual tester</a> ‐ <span class="xhr-new-job-count">8 new jobs</span></li><li id="recentsearches-item-1464119725"><a href="http://qajobs.com/s/find-java-jobs-in-usa/age:lastvisit?gacid=t102064">java</a> ‐ <span class="xhr-new-job-count">123 new jobs</span></li></ul></div>
+        </div>
+        <div class="block block-jj_jobpost" id="block-jj_jobpost-18">
+          <h2>Top Searches</h2>
+          <div class="content"><ul><li><a href="http://qajobs.com/s/find-qa-jobs-in-usa" rel="nofollow">qa</a></li><li><a href="http://qajobs.com/s/find-manual-tester-jobs-in-usa" rel="nofollow">manual tester</a></li><li><a href="http://qajobs.com/s/find-tester-jobs-in-usa" rel="nofollow">tester</a></li><li><a href="http://qajobs.com/s/find-qa-tester-jobs-in-usa" rel="nofollow">qa tester</a></li><li><a href="http://qajobs.com/s/find-sql-developer-jobs-in-usa" rel="nofollow">sql developer</a></li><li><a href="http://qajobs.com/s/find-quality-assurance-lead-jobs-in-usa" rel="nofollow">quality assurance lead</a></li><li><a href="http://qajobs.com/s/find-quality-jobs-in-usa" rel="nofollow">quality</a></li><li><a href="http://qajobs.com/s/find-qa-analyst-jobs-in-usa" rel="nofollow">qa analyst</a></li><li><a href="http://qajobs.com/s/find-quality-assurance-jobs-in-usa" rel="nofollow">quality assurance</a></li><li><a href="http://qajobs.com/s/find-qa-manual-tester-jobs-in-usa" rel="nofollow">qa manual tester</a></li></ul></div>
+        </div>
+      </div>
+    </td>
+    <!-- end left sidebar -->
+    <td valign="top" width="100%">
+      <div id="content">
+        <div id="message"><table id="message-container">
+        </table>
+        </div>
+        <table style="width:100%; padding:0; margin:0">
+          <tbody><tr>
+            <td align="left">
+              <div class="jj-page-title ">
+                &gt; Qa Ruby jobs in USA<span class="title_options_highlight"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://qajobs.com/jj/advanced/find-qa-ruby-jobs-in-usa/age:lastvisit" onclick="saveinfo_clear(&quot;jj-jobsearch-advanced-searchform&quot;, &quot;/&quot;);">refine</a> your search terms</span><br>&nbsp;<span id="title-newjobs-section">Show: <a href="http://qajobs.com/s/find-qa-ruby-jobs-in-usa">all 119 jobs</a> - <strong>only new jobs</strong></span>												</div>
+            </td>
+            <td align="right">
+              <div class="jj-search-sort-switch" align="right">Sort by:&nbsp;&nbsp;<b>relevance</b> - <a href="http://qajobs.com/s/find-qa-ruby-jobs-in-usa/age:lastvisit/sort:date" rel="nofollow">date</a></div>
+            </td>
+          </tr>
+          </tbody></table>
+        <!-- start main content -->
+        <div id="jobalerts">
+          <table id="alertbox" style="margin-top:0">
+            <tbody><tr><td style="padding:2px 0;">
+              <div class="content ">			<div id="accordion">
+                <h3 class="title"><img src="/files/icon-mail.png" class="ico">Get new jobs for this search by email</h3>
+                <div class="holder-send">				<script>
+                    var callbacks = [];
+                    callbacks['pre'] = 'alertPreAlertbox';
+                    callbacks['onSuccess'] = 'alertOnSuccessAlertbox';
+                    callbacks['onError'] = 'alertOnErrorAlertbox';
+                </script>
+                  <form id="alertform" action="" method="POST" onsubmit="jobalert_add('radius:100,keyword:qa ruby,location:usa,gacid:', this.alertmail.value,
+                          {at:this.at.value, source:'alertbox', verified:0, search_args_display:'<strong>qa ruby jobs</strong>'}, callbacks); return false;" style="background-color:#F5F5F5">
+                    <input id="verified" name="verified" value="0" type="hidden">
+                    <input id="at" name="at" value="61ec41ec99477494fc437e2ecde3f66c" type="hidden">
+                    <label for="alertmail" style="color:#000">My email:</label>
+
+                    <input id="alertmail" name="alertmail" value="" size="30" maxlength="100" style="border:1px solid #7F9DB9;display:inline-block" type="text">
+                    <input value="Save Alert" class="form-button" type="submit">
+                  </form><div class="caption">You can cancel email alerts at any time.</div></div>
+              </div></div>
+              <div class="message" style="display:none"></div>
+              <div class="tip">Tip: Enter your zip code in the "where" box to show results in your area.</div>
+            </td></tr>
+            </tbody></table>
+        </div><script data-jsv-tmpl="_0" id="sponsored-job-box-template" type="text/x-jsrender">
+  <div class="sponsored-job-box">
+    <div class="title">
+      {{:link}}
+    </div>
+    <div class="detail-cl">
+      <span class="company">{{:company}}</span>
+      <span class="dash">-</span>
+      <span class="location">{{:location}}</span>
+    </div>
+    <div class="body">{{:body}}</div>
+    <div class="detail-fd">
+      <span class="from">from {{:from}}</span>
+      <span class="dash">-</span>
+      <span class="date">{{:date}}</span>
+    </div>
+  </div>
+</script><div id="diversityjobs-jobsearch-joblist"><div class="sponsored-jobs"><div class="top-container"><div id="top-container-title"><a href="http://qajobs.com/new-post/">sponsored jobs</a></div><input name="search_keyword" value="qa ruby" type="hidden"><input name="location_gid" value="1" type="hidden"><input name="organic_nids" value="701647048,701636088,701635970,701630315,701634370,701636084,701635370,701630207,701630178,701633024,701644199,701636207,701631185,701636199,701635302" type="hidden">
+      </div></div><table width="100%">
+        <tbody>
+        <% if @jobs.present? %>
+          <% @jobs.each do |job| %>
+            <tr class="odd">
+              <td style="background-color: white" class="jj-joblist-cell jj-joblist-cell-logo" align="center" valign="top"></td>
+              <td class="jj-joblist-cell jj-joblist-description" valign="top">
+                <div class="joblist-title-holder">
+                  <a href="" target="_blank" class="jj-joblist-title" rel="nofollow"><%= job.title %></a> -
+                  <span style="color: #FF6600">new</span></div><span class="jj-joblist-company"><%= job.company %></span>
+                - <span class="jj-joblist-location"><%= job.location %></span><br>
+                <span class="jj-joblist-teaser"><%= job.description %> </span><br>
+                <span style="color: #7777CC; font-family: arial,sans-serif; font-size: 13px">from <%= job.url %></span>
+                - <span style="color: #808080; font-family: arial,sans-serif; font-size: 13px"><%= job.posted %></span> -
+                <a href="#" onclick="return false;" class="joblist-tools-email-toggler" title="701647048" rel="nofollow">email</a>
+                - <a href="#" onclick="return false;" class="joblist-tools-more-toggler" title="701647048" rel="nofollow">more...</a>
+                  </td>
+            <% end %>
+        <% else %>
+            <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
+        <% end %>
+        <tr class="even"><td colspan="4"><div class="joblist-item-spacer"></div></td> </tr>
+
+        <tr class="even"><td colspan="4"><div class="joblist-item-spacer"></div></td> </tr>
+
+        <tr class="even"><td colspan="4"><div class="joblist-item-spacer"></div></td> </tr>
+        </tbody></table></div>									<!-- end main content -->
+      </div>
+    </td>
+  </tr>
+  </tbody></table>

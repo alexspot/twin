@@ -1,0 +1,1350 @@
+
+/* ------------------------------------------
+ * 1. General selectors
+ * ------------------------------------------ */
+body, h1, h2, h3, h4, h5, h6, p, form, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: #F0F0F0;
+  color: #333;
+  font: 0.86em/1.5em Verdana, sans-serif;
+  text-align: center;
+}
+
+tbody {
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial,Verdana,sans-serif;
+}
+
+a {
+  text-decoration:none;
+}
+
+hr {
+  color: #cccccc;
+  height: 1px;
+}
+
+a img {
+  border:none;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 18px;
+  font-style: italic;
+}
+
+pre, code, kbr {
+  font-family: "Courier New", Courier, monospace;
+}
+
+code {
+  display: block;
+  padding: 10px;
+  color: #3D4415;
+  background: #F8F9FD;
+  font-size: 1.2em;
+}
+
+abbr, acronym {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+td.bottom{
+  background: url(images/bottom.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+input[type="text"] {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+label {
+  display: inline;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+/* ------------------------------------------
+ * 2. Structure
+ * ------------------------------------------ */
+#container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+#wrapper {
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+
+#wrapper.oneliner {
+  padding-top: 35px ;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+#content {
+  width: 100%;
+  float: left;
+  margin: 0;
+  text-align: left;
+  padding-top: 10px ;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 0px;
+
+}
+
+#slogan{
+  font-size:17px;
+  position: relative;
+  top: 54px;
+  left: 240px;
+  z-index: 2;
+  text-align: left;
+}
+
+
+.subcontent {
+  float: right;
+  width: 200px;
+  margin: 0;
+  font-size: 11px;
+  /* padding: 10px; */
+  padding-top: 20px;
+}
+
+#footer {
+  padding: 15px;
+  font-size: .9em;
+}
+
+.low {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+* html .low {height: 1%;}
+
+
+
+/* ------------------------------------------
+ * 3. General definitions
+ * ------------------------------------------ */
+form {
+  padding: 12px;
+}
+
+form fieldset {
+  padding: 6px;
+  border: 1px solid #C0C0C0;
+  color: #666;
+}
+
+form fieldset legend {
+  color: #404040;
+  font-weight: bold;
+}
+
+form label {
+  color: #404040;
+}
+
+form p {
+  padding:6px 0;
+}
+
+form input, form textarea {
+  width: auto;
+}
+
+.box {
+  margin: 0;
+  border: 1px solid #C0C0C0;
+}
+
+li.expanded {
+  list-style-image: url(images/menu-expanded.gif);
+}
+
+li.collapsed {
+  list-style-image: url(images/menu-collapsed.gif);
+}
+
+li.leaf {
+  list-style-image: url(images/menu-leaf.gif);
+}
+
+
+
+/* ------------------------------------------
+ * 4. Content selectors
+ * ------------------------------------------ */
+
+/*
+#content a:visited {
+	color: #551A8B;
+}
+
+#content a, #content a:active {
+	color: #0000FF;
+}
+*/
+
+#content a:hover  {
+  text-decoration: underline;
+}
+
+/*
+#content h2 {
+   	background-image: url(images/bullet.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	color: #3780B9;
+	padding-left:20px;
+	text-decoration: none;
+}
+
+#content h2 a, #content h2 a:visited {
+	color: #3780B9;
+}
+*/
+
+#content p {
+  /* text-align: justify; */
+  text-align: left;
+
+}
+
+#content .page-title {
+  margin-bottom: 12px;
+}
+
+
+
+#site-menu a, #site-menu  a:visited {
+  padding-left: 12px;
+  padding-right: 10px;
+  font-weight: bold;
+  background-image: url(images/red_bullet.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  color: white;
+}
+
+#site-menu  a:hover {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #FFF;
+  text-decoration: underline;
+}
+
+
+#site-name {
+  margin: 0;
+  padding-bottom: 0;
+  position: relative;
+  max-width: 50%;
+}
+
+#site-name.oneliner {
+  margin: 0 0 0 0;
+  padding-bottom: 0px;
+  position: relative;
+  float: left;
+  padding-right: 45px;
+}
+
+#site-name .logo-small {
+  height: 55px;
+}
+
+#site-name .logo-jj {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+#site-name h1 {
+  font-size: 3em;
+  font-family: Arial, "Trebuchet MS", Helvetica, Georgia, serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+#site-name h1 a, #site-name h1 a:visited {
+  color: #000;
+}
+
+#site-name h1 .com {
+  /*color: #DC143C;*/
+  color: #000;
+}
+
+#content .box {
+  margin-bottom: 15px;
+  padding: 12px;
+  text-align:left;
+}
+
+#content .box h2 {
+  margin-bottom: 8px;
+  font-size: 1.4em;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+#content .box h2 a {
+  color: #CC0000;
+}
+
+#content .box .content {
+  color: #666;
+}
+
+#content .box a, #content .box a:visited {
+  color: #C50022;
+}
+
+#content .box a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#content form {
+  background-color: #FCFCFC;
+}
+
+#content form fieldset {
+  margin-bottom: 18px;
+}
+
+#content .form-text {
+  width: auto;
+}
+
+#content .textarea {
+  width: 99%;
+}
+
+#content table {
+  margin-top: 8px;
+  /* width: 99%; */
+  font-size: .9em;
+}
+
+/*
+#content table th {
+	background-color: #25221D;
+	color: #FFF
+}
+*/
+
+#content table th a, #content table th a:visited {
+  color: #FFF;
+}
+
+#content table .dark {
+  background-color: #F6F6F6;
+}
+
+#content table .light {
+  background-color: #FFF;
+}
+
+#content .navigation {
+  text-transform: lowercase;
+}
+
+#content .navigation a, #content .navigation a:visited {
+  /*
+  color: #404040;
+  text-decoration: underline;
+  */
+  color:#3780B9;
+  font-family:Georgia,"Times New Roman",Times,serif;
+  font-size:15px;
+  font-weight: bold;
+}
+
+#content .navigation a:hover {
+  color: #FF6B15;
+}
+
+
+
+
+/* ------------------------------------------
+ *	 5. Right Bar selectors
+ * ------------------------------------------ */
+.subcontent a, .subcontent a:visited {
+  /* color: #336666; */
+  color: #888;
+}
+
+.subcontent a:hover, .subcontent a:active {
+  /* color: #336666; */
+  text-decoration: underline;
+}
+
+.subcontent h2 {
+  padding: 6px 8px 0 8px;
+  font-size: 1.0em;
+}
+
+.subcontent .content {
+  padding: 7px;
+}
+
+.subcontent .block {
+  margin: 0 0 12px 0;
+  /* background: #F8F8FF url(images/block_bg.gif) repeat-y; */
+  text-align: left;
+}
+
+.subcontent .block h2 {
+  text-align: left;
+  padding-top: 4px;
+  /* color: #CC0000; */
+  color: #000;
+  height: 27px;
+}
+
+.subcontent .block .content {
+  /* background: url(images/block_bottom.gif) no-repeat bottom; */
+}
+
+.subcontent ol {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.subcontent ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.subcontent ul li {
+  padding-bottom: 2px;
+}
+
+.subcontent h3 {
+  margin-top: 8px;
+  font-size: 1.2em;
+}
+
+.box-aux {
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#primary-links {
+  margin: 0 0 12px 0;
+  background: #FFF url(images/block_bg.gif) repeat-y;
+}
+
+#primary-links .box-aux {
+  background-image: url(images/block_top.gif);
+}
+
+#primary-links .content {
+  background: url(images/block_bottom.gif) no-repeat bottom;
+  color: #D9D9D9;
+  padding-top: 12px;
+  padding: 12px 8px;
+}
+
+#search-box {
+  margin: 0 0 12px 0;
+  background-color: #336666;
+}
+
+#search-box h2 {
+  background: url(images/search_top.gif) no-repeat top;
+  color: #FFF;
+}
+
+#search-box .content {
+  background: url(images/search_bottom.gif) no-repeat bottom;
+}
+
+#search-box form {
+  padding: 0;
+}
+
+#search-box form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#search-box #searchtext {
+  height: 16px;
+  width: 110px;
+  margin: 0;
+  padding: 1px;
+  border: 1px solid #999;
+  font-size: 0.7em;
+  vertical-align: middle;
+}
+
+
+#search-box #searchbutton {
+  height: 19px;
+  width: auto;
+  padding: 0 1px;
+  background-color: #336666;
+  color: #FFF;
+  border: 1px solid;
+  font-size: .9em;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+
+/* ------------------------------------------
+ * 6. Footer selectors
+ * ------------------------------------------ */
+#footer p {
+  color: #404040;
+}
+
+#footer a, #footer a:visited {
+  color: #404040;
+}
+
+#footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+
+
+/* ------------------------------------------
+ * 8. Theme styles
+ * ------------------------------------------ */
+#message {
+  margin: 10px 0 20px 0;
+}
+
+.messages {
+  padding: 5px;
+  color: #000;
+}
+
+.error {
+  background-color: #FFF2F0;
+  border: 1px solid #FF6347;
+}
+
+.status {
+  background-color: #F0F8FF;
+  border: 1px solid #6495ED;
+}
+
+#help {
+  margin: 0 0 18px 0;
+  padding: 5px;
+  background-color: #FFFFF0;
+  border: 1px solid #FFD700;
+}
+
+#help p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.description code {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+.more-link {
+  padding-right: 6px;
+  text-transform: capitalize;
+  line-height: 16px;
+}
+
+.info {
+  margin: 0 0 32px 0;
+  padding: 2px 5px;
+  border-top: 1px dotted #C0C0C0;
+  color: #666;
+  font-size: 11px;
+}
+
+#content p.info {
+  text-align: right;
+}
+
+.submit {
+  margin: 0 0 12px 0;
+  padding: 3px 10px;
+  background-color: #FdFdFd;
+  color: #666;
+  text-align: right;
+}
+
+#content .info a,  #content .info a:visited {
+  color: #000;
+}
+
+#content .info a:hover {
+  color: #FF6B15;
+}
+
+.comment {
+  margin: 0 0 12px 0;
+  padding: 0 0 0 18px;
+}
+
+.comment p.header {
+  margin: 0;
+  padding: 0;
+}
+
+.comment .content {
+  margin: 0;
+  padding: 0;
+}
+
+.comment .postmetadata {
+  margin: 0;
+  padding: 0;
+}
+
+#content .info .read-more {
+  font-weight: bold;
+}
+
+
+
+/* ------------------------------------------
+ * 9. Module specific
+ * ------------------------------------------ */
+.subcontent .event-calendar table {
+  font-size: .8em;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+
+/* Attachment
+---------------------------------------------*/
+.attachments {
+  margin: 10px 0 20px 0;
+}
+
+.attachments legend {
+  font-weight: bold;
+}
+
+table.attachment-list {
+  width: 99%;
+  border: 1px solid #C0C0C0;
+}
+
+table.attachment-list td {
+  background-color: #fff;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.attachment-image {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.primary-menubar {
+  /*
+  margin-left: 0px;
+  padding: 6px;
+  padding-left: 25px;
+  */
+  background: #A85118;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.primary-menubar-link {
+  background-image:url(images/red_bullet.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+  color:white;
+  font-weight:bold;
+  padding-left:12px;
+  padding-right:10px;
+  text-decoration:none;
+}
+
+
+/* ------------------------------------------
+ * JJ Values
+ * ------------------------------------------ */
+
+#jj-postjobs-intro {
+  padding-right: 30px;
+}
+
+#jj-topbar {
+  background-color: #F2F2F2;
+  height: 21px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#jj-topbar a, #jjdev-topbar a {
+  text-decoration: underline;
+  padding-left: 16px;
+  color: blue;
+}
+
+#jj-topbar .jj-frontpage-topbar-link-dark {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+#jjdev-topbar {
+  background-color: #888;
+  color: #EEE;
+  height: 21px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#jjdev-topbar-rightcol {
+  float: right;
+  padding-right: 10px;
+}
+
+#jj-icon-bookmark {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.jj-page-primary-menubar {
+  /*
+  margin-left: 0px;
+  padding: 6px;
+  padding-left: 25px;
+  */
+  background: #A85118;
+  text-align: left;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  color: white;
+  /* height: 10px; */
+  height: 21px;
+}
+
+.jj-page-primary-menubar-link {
+  background-image:url(images/red_bullet.gif);
+  background-position:left center;
+  background-repeat:no-repeat;
+  color:white;
+  font-weight:bold;
+  padding-left:12px;
+  padding-right:10px;
+  text-decoration:none;
+}
+
+.jj-page-title {
+  margin:0;
+  padding:0;
+  /*
+  font-family:Georgia,"Times New Roman",Times,serif;
+  font-size:16px;
+  */
+  font-family: Arial, Georgia,"Times New Roman",Times,serif;
+  font-size:17px;
+  color:#3780B9;
+  text-decoration:none;
+  margin-bottom:12px;
+  font-weight: bold;
+}
+
+.jj-page-title-mobile {
+  font-size:13px;
+}
+
+.jj-page-footer {
+  height: 90px;
+  font-size: 8pt;
+  background-color: white;
+  line-height: normal;
+}
+
+.jj-page-footer-copyright {
+  color: #888888;
+}
+
+.jj-page-footer-link {
+  font-size: 10pt;
+  /* text-decoration: underline; */
+}
+
+.jj-page-footer-link:hover {
+  text-decoration: underline;
+}
+
+#jj-jobpost-search-options {
+  font-size:10px;
+  padding-left:8px;
+  width:120px;
+  line-height: 12px;
+}
+
+.jj-jobpost-display-suggestions-box {
+  border: 1px solid #888;
+  background-color: #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.jj-jobpost-display-suggestions-links {
+  font-weight: bold;
+}
+
+.jj-jobpost-display-apply-wrapper {
+  margin-top: 20px;
+  border: 1px solid #408080;
+  background-color: #D9ECEC;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.jj-jobpost-display-apply-link {
+  color: #408080;
+  font-weight: bold;
+}
+
+.jj-page-footer-seealso-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jj-joblist-header {
+  /* background-color: #ccc; */
+  background-color: white;
+  color: black;
+  font-weight: normal;
+}
+
+.jj-joblist-teaser {
+
+}
+
+.jj-joblist-description {
+  line-height: 16px;
+  padding-right: 10px;
+}
+
+.jj-joblist-title {
+  font-size: 15px;
+}
+
+.jj-joblist-location {
+  color:#666;
+  font-size:15px;
+}
+.jj-joblist-company {
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: #008000;
+}
+
+.jj-joblist-duplicates-title, a.jj-joblist-duplicates-title {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #666666;
+  text-decoration: underline;
+}
+
+.jj-joblist-cell {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.jj-joblist-cell-logo {
+  padding-right: 4px;
+}
+
+.jj-joblist-highlight {
+  background-color: #ffff9f;
+}
+
+.jj-page-search-form-top {
+  padding-left: 160px;
+  padding-top: 5px;
+}
+
+.jj-page-search-form-top-mobile {
+  padding-left: 0px;
+}
+
+.jj-page-search-form-bottom {
+  padding-left: 220px;
+  height: 90px;
+  margin-top: 30px;
+}
+
+.jj-page-search-pagination-bottom {
+  padding-bottom: 20px;
+}
+
+.jj-page-search-format-switch {
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+#diversityjobs-jobsearch-joblist {
+  /* padding-bottom: 20px; */
+}
+
+#diversityjobs-jobsearch-joblist img {
+  padding-right: 10px;
+}
+
+#diversityjobs-jobsearch-joblist a, #diversityjobs-jobsearch-joblist a:visited, #diversityjobs-jobsearch-joblist a:active {
+  text-decoration: underline;
+}
+
+/*
+#diversityjobs-jobsearch-joblist a:hover {
+	text-decoration: underline;
+}
+*/
+
+#jj-jobsearch-form-holder, #jj-jobsearch-form-holder-mobile {
+  background-color: transparent;
+  border-spacing: 0;
+  margin: 0;
+  width: 500px;
+  text-align: left;
+}
+
+#jj-jobsearch-form-holder label {
+  color: #E36B1D;
+}
+
+#jj-jobsearch-form-holder-mobile label {
+  color: #000;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+#jj-jobpost-jobsearch-form {
+  padding: 0px;
+}
+
+#jj-jobpost-jobsearch-form-bottom {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+#jj-jobpost-jobsearch-form .form-item, #jj-jobpost-jobsearch-form-bottom .form-item {
+  margin: 0;
+  padding: 0;
+}
+
+#jj-jobpost-jobsearch-form .description, #jj-jobpost-jobsearch-form-bottom .description {
+  color: #aaa;
+  font-size: 12px;
+  font-family: Arial;
+  padding-left: 2px;
+}
+
+#jj-jobpost-jobsearch-form .form-submit {
+  /*
+  display: none;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  */
+}
+
+#jj-jobpost-jobsearch-form #edit-keyword, #jj-jobpost-jobsearch-form #edit-location,
+#jj-jobpost-jobsearch-form-bottom #edit-keyword, #jj-jobpost-jobsearch-form-bottom #edit-location {
+  border:1px solid #AEAEAE;
+  width: 220px;
+  height: 20px;
+}
+
+#jj-jobpost-jobsearch-form #edit-btnsubmit2, #jj-jobpost-jobsearch-form-bottom #edit-btnsubmit2 {
+  font-size: 14px;
+  font-weight: normal;
+  height: 24px;
+  left: 1px;
+  position: relative;
+  width: 72px;
+}
+
+#jj-jobpost-display-body {
+  padding-right: 30px;
+}
+
+#jj-jobpost-display-body .feeder-logo {
+  border: 1px solid #cccccc;
+}
+
+#jj-frontpage-icon-bookmark {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#diversityjobs-jobsearch-joblist table tr.even, #diversityjobs-jobsearch-joblist table tr.odd {
+  border-bottom: none;
+  background-color: white;
+}
+
+#diversityjobs-jobsearch-joblist table tr.odd {
+  /* background-color: #ccc; */
+}
+
+#diversityjobs-jobsearch-joblist table thead th {
+  border: none;
+}
+
+/* Ad Partners */
+
+#dj-adpartner-table-horizontal {
+  text-align: left;
+  line-height: 14px;
+}
+
+#dj-adpartner-horizontal-contact-link {
+  margin-bottom: 10px;
+}
+
+#dj-adpartner-horizontal-contact-link a {
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.dj-adpartner-separator-horizontal {
+  border-left: 1px solid #d6d6d6;
+  width: 1px;
+  height: 65px;
+  margin: 15px;
+}
+
+#dj-adpartner-table-vertical {
+  text-align: left;
+  line-height: 14px;
+  margin-right: 10px;
+}
+
+.dj-adpartner-separator-vertical {
+  border-bottom: 1px solid #d6d6d6;
+  height: 1px;
+  margin: 15px;
+}
+
+#dj-adpartner-vertical-contact-link a {
+  /* text-decoration: underline; */
+  font-size: 10px;
+  text-align: right;
+}
+
+.dj-adpartner-table {
+  width: 210px;
+}
+
+.dj-adpartner-table a, .dj-adpartner-table a:visited {
+  color: blue;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.dj-adpartner-title {
+  color: blue;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.dj-adpartner-logo {
+  padding-right: 15px;
+}
+
+.dj-adpartner-desc {
+  color: black;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+/* Resources Page */
+
+.jj-resources-holder {
+  color: #555;
+  font-family: Arial;
+}
+
+.jj-resources-main-title {
+  /*
+  color:#555;
+  font-family:Arial;
+  */
+  padding-top: 10px;
+  padding-bottom:10px;
+
+  color: #2A2A2A;
+  font-family: Arial;
+  font-size: 22px;
+
+}
+
+.jj-resources-intro-text {
+  /*
+  font-family: Arial;
+  color: #555;
+  */
+}
+
+.jj-resources-index-holder {
+  font-family: Verdana;
+  margin-bottom: 30px;
+}
+
+.jj-resources-index-holder ul {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.jj-resources-title-index {
+  /*
+  color:#555;
+  font-family:Arial;
+  */
+  padding-bottom:10px;
+  padding-top:30px;
+
+  color: #2A2A2A;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.jj-resources-holder {
+  /* padding-left: 25px; */
+  padding-right: 90px;
+}
+
+.jj-resources-holder img {
+  padding-right: 20px;
+}
+
+.jj-resources-category-holder {
+  margin-bottom: 40px;
+}
+
+.jj-resources-index-holder ul {
+  margin-top: 0px;
+  padding-left: 20px;
+  font-family: Arial;
+  font-size: 13px;
+
+}
+
+.jj-resources-title-category {
+  font-size: 13px;
+  color: #974806;
+  border-bottom: 1px solid #e5e4bb;
+  margin-bottom: 5px;
+}
+
+.jj-resources-addlink {
+  font-family: Verdana;
+  /* text-decoration: underline; */
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.jj-resources-item-box {
+  border-bottom: 1px solid #e5e4bb;
+}
+
+.jj-resources-item-box-last {
+  border-bottom: 0;
+}
+
+.jj-resources-item-url {
+
+
+}
+
+.jj-resources-item-title {
+  font-size: 12px;
+
+}
+
+.jj-resources-item-description {
+  font-size: 12px;
+
+}
+
+.jj-search-sort-switch {
+  color: #000000;
+  padding-right: 95px;
+  /* font-size: 12px; */
+}
+
+.jj-search-sort-switch-mobile {
+  color: #000000;
+  padding-left: 8px;
+  font-size: 11px;
+}
+
+.list_adsense {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#jj-mobile-switcher {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 0;
+  font-size: 13px;
+  text-align: right;
+  color: #333;
+}
+
+#jj-mobile-switcher a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.pager {
+  white-space: nowrap;
+}
+
+#diversityjobs-jobsearch-joblist a.joblist-tools-more-toggler, #diversityjobs-jobsearch-joblist a.joblist-tools-email-toggler {
+  color: #7777CC;
+}
+
+#recentsearches-list li {
+  font-family: Arial, verdana;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+
+#recentsearches-list li a {
+  text-decoration: none;
+  color: #0000CC;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.xhr-new-job-count {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.paging-title-content {
+  padding: 3px 10px 3px;
+}
+
+.jj-page-subtitle-bar {
+  background-color: #EBEBEB;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+#edit-keyword,
+#edit-location {
+  height: 18px;
+  padding-bottom: 5px;
+  margin: 0 2px 1px 0;
+  padding: 2px 6px 4px 6px;
+}
+
+#tooltip_keyword, #tooltip_location {
+  font-size: 9pt;
+  color: #aaaaaa;
+}
+
+.facet-item {
+  white-space: nowrap;
+  overflow: hidden;
+  color: #666;
+  font-size: 10px;
+}
+
+#facet-clear-link a {
+  margin: 0 10px;
+  color: #00E;
+  font-size: 10px;
+  text-decoration: underline;
+}
